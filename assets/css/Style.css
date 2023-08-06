@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    background-image: url("../image/pic2.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    padding: 30px 100px 0px 100px;
+}
+header .navbar .left-logos a img{   
+    width: 100px;
+    height: 30px;
+}
+header .navbar .right-btn a{
+    color:white;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 7px 20px 7px 20px;
+    letter-spacing: 1px;
+}
+header .section-one-main .section-one{
+    text-align: center;
+    padding-top: 200px;
+}
+header .section-one-main .section-one{
+    text-align: center;
+    padding-top: 180px;
+}
+header .section-one-main .section-one h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 60px;
+    padding-bottom: 10px;
+}
+header .section-one-main .section-one .top-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+header .section-one-main .section-one a{
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0px;
+    background-color:#355E3B;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    border: none;
+    letter-spacing: 1px;
+}
+header .section-one-main .section-one a:hover{
+    background-color: cornflowerblue;
+}
+header .section-one-main .section-one .last-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.section-two .section-two-main .part-one{
+    width: 50%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+.section-two .section-two-main .part-one img{
+    width: 400px;
+    height: 400px;
+}
+.section-two .section-two-main .part-two{
+    width: 50%;
+    height: auto;
+    float: right;
+    padding: 100px 0px 50px 0px;
+}
+.section-two .section-two-main .part-two h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 1px;
+    padding: 40px 280px 0px 0px;
+}
+.section-two .section-two-main .part-two p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 20px 230px 30px 0px;
+}
+.section-two .section-two-main .part-two a{
+    color:white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0px;
+    background-color:#355E3B;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    border: none;
+    letter-spacing: 1px;
+}
+.clear {
+    clear: both;;
+}
+.section-three .section-three-main .part-three{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 20px 0px 50px 140px;
+}
+.section-three .section-three-main .part-three h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 1px;
+    padding: 20px 90px 0px 0px;
+}
+.section-three .section-three-main .part-three p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 20px 100px 30px 0px;
+}
+.section-three .section-three-main .part-three a{
+    color:white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0px;
+    background-color:crimson;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    border: none;
+    letter-spacing: 1px;
+}
+.section-three .section-three-main .part-four{
+    width: 50%;
+    height: auto;
+    float: right;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+.section-three .section-three-main .part-four img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+.section-four .section-four-main .part-five{
+    width: 50%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+.section-four .section-four-main .part-five img{
+    width: 450px;
+    height: 400px;
+}
+.section-four .section-four-main .part-six{
+    width: 50%;
+    height: auto;
+    float: right;
+    padding: 20px 0px 50px 0px;
+}
+.section-four .section-four-main .part-six h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 1px;
+    padding: 100px 250px 0px 0px;
+}
+.section-four .section-four-main .part-six p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 20px 240px 30px 0px;
+}
+.section-four .section-four-main .icons {
+    padding-bottom: 30px;
+}
+.section-four .section-four-main .icons ul{
+    margin: 0px;
+}
+.section-four .section-four-main .icons ul li{ 
+    list-style: none;
+    display: inline;
+    margin: 0px 7px 0px 7px;
+    padding: 8px 8px 8px 8px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+}
+.section-four .section-four-main .icons p{
+    padding-top: 30px;
+    color: green;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-right: 70px;
+}
+.section-four .section-four-main .icons .btnss{
+    color:white;
+    font-size: 15px;
+    text-decoration: none;
+    background-color:#355E3B;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    border: none;
+    letter-spacing: 1px;
+}
+.section-four .btn-two{
+    color:white;
+    font-size: 15px;
+    text-decoration: none;
+    background-color:#355E3B;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px;
+    border: none;
+    letter-spacing: 1px;
+}
+.clear {
+  clear: both;;
+}
+.section-five {
+    padding: 100px 0px 100px 0px;
+}
+.section-five-main .five-services {
+    display: flex;
+}
+.section-five-main .five-services .service-one{
+    width: 33%;
+    height: auto;
+    text-align: center;
+}
+.section-five-main .five-services .service-one img{
+    width: 300px;
+    height: 150px;
+    border-radius: 100px;
+}
+.section-five-main .five-services .service-one h2{
+    font-size: 16px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    padding: 20px 100px 10px 100px;
+    line-height: 25px;
+}
+.section-five-main .five-services .service-one p{
+    font-size: 12px;
+    color: black;
+    line-height: 20px;
+    padding: 0px 90px 0px 90px;
+}
+.section-five-main .five-services .service-two{
+    width: 33%;
+    height: auto;
+    text-align: center;
+}
+.section-five-main .five-services .service-two img{
+    width: 380px;
+    height: 160px;
+    border-radius: 50px;
+}
+.section-five-main .five-services .service-two h2{
+    font-size: 16px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    padding: 10px 80px 10px 80px;
+    line-height: 25px;
+}
+.section-five-main .five-services .service-two p{
+    font-size: 12px;
+    color: black;
+    line-height: 20px;
+    padding: 0px 90px 0px 90px;
+}
+.section-five-main .five-services .service-three{
+    width: 33%;
+    height: auto;
+    text-align: center;
+}
+.section-five-main .five-services .service-three img{
+    width: 300px;
+    height: 150px;
+    border-radius: 100px;
+}
+.section-five-main .five-services .service-three h2{
+    font-size: 16px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    padding: 20px 80px 10px 80px;
+    line-height: 25px;
+}
+.section-five-main .five-services .service-three p{
+    font-size: 12px;
+    color: black;
+    line-height: 20px;
+    padding: 0px 90px 0px 90px;
+}
+.section-five-main .service-endd{
+    font-size: 15px;
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 80px;
+}
+.section-six {
+    width: 100%;
+    height: 500px;
+    background-image: url("../image/vpn_server_map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-six-main .section-footer h1{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+.section-six-main .footer-text h2 {
+    font-size: 40px;
+    color: black;
+    text-align: right;
+    padding-right: 200px;
+}
+.section-six-main .footer-text p{
+    font-size: 12px;
+    color: black;
+}
+.section-six-main p {
+    padding-top: 30px;
+    color: green;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-right: 70px;
+    text-align: center;
+}
+.section-six-main .footer-fisrt{
+    padding-bottom: 40px;
+}
+.section-six-main .footer-second{
+    padding-bottom: 40px;
+}
+.section-six-main .footer-last{
+    padding-bottom: 40px;
+}
+.section-six-main .footer-fisrt p{
+    font-size: 12px;
+    color: black;
+    text-align: right;
+    padding-right: 140px;
+    padding-top: 0px;
+    text-decoration: none;
+}
+.section-six-main .footer-second p{
+    font-size: 12px;
+    color: black;
+    text-align: right;
+    padding-right: 135px;
+    padding-top: 0px;
+    text-decoration: none;
+}
+.section-six-main .footer-last p{
+    font-size: 12px;
+    color: black;
+    text-align: right;
+    padding-right: 125px;
+    padding-top: 0px;
+    text-decoration: none;
+}
